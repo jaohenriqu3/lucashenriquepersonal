@@ -22,19 +22,13 @@ export default function StepsSection() {
                 <div className="grid md:grid-cols-3 gap-8">
                     {steps.map((step, i) => (
                         <div key={i} className="bg-white p-10 rounded-3xl border border-zinc-200 relative overflow-hidden group hover:border-primary transition-all shadow-sm hover:shadow-xl hover:shadow-primary/5">
-                            <div className="text-8xl font-black text-black/5 absolute -top-4 -right-4 italic group-hover:text-primary/5 transition-colors">
+                            <div className="text-8xl text-primary/75 font-bold absolute -top-4 right-2 italic group-hover:text-primary/5 transition-colors md:hidden">
                                 {step.num}
                             </div>
                             <h3 className="text-xl font-black uppercase italic mb-4 relative z-10 leading-tight">
-                                {step.num}. {step.title}
+                                <span className="text-primary">{step.num}.</span> {step.title}
                             </h3>
                             <p className="text-black/60 relative z-10 font-medium">{step.desc}</p>
-
-                            {i < steps.length - 1 && (
-                                <div className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 z-20">
-                                    <span className="text-zinc-200 text-3xl">▶</span>
-                                </div>
-                            )}
                         </div>
                     ))}
                 </div>
