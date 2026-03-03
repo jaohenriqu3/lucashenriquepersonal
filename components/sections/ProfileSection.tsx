@@ -28,7 +28,7 @@ export default function ProfileSection() {
                             "Avaliação Individual",
                             "Periodização Estruturada",
                             "Ajustes Semanais",
-                            "Foco em Hipertrofia"
+                            "Foco em Hipertrofia e Emagrecimento "
                         ].map((item, i) => (
                             <li key={i} className="flex items-center gap-4 text-xl font-black uppercase italic tracking-wide text-white/90 group">
                                 <span className="text-primary text-2xl group-hover:scale-110 transition-transform">✓</span> {item}
