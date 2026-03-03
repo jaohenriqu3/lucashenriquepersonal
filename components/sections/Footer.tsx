@@ -25,7 +25,7 @@ export default function Footer() {
                             </svg>
                         </a>
                         <a
-                            href="https://instagram.com"
+                            href="https://www.instagram.com/lucashenrique_personal/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-primary hover:scale-110 transition-transform"
