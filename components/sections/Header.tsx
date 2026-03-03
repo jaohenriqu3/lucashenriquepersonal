@@ -3,9 +3,8 @@ import React from "react";
 export default function Header() {
     return (
         <header className="w-full py-4 px-6 fixed top-0 z-50 bg-black/80 backdrop-blur-md border-b border-white/5">
-            <div className="max-w-7xl mx-auto flex justify-between items-center">
-                <div className="text-xl font-black italic tracking-tighter text-white">LOGO</div>
-                <nav className="hidden md:flex gap-8">
+            <div className="max-w-7xl mx-auto flex justify-center items-center">
+                <nav className="hidden md:flex gap-8 ">
                     <a href="#home" className="text-sm font-bold uppercase tracking-widest hover:text-primary transition-colors">Home</a>
                     <a href="#sobre" className="text-sm font-bold uppercase tracking-widest hover:text-primary transition-colors">Sobre</a>
                     <a href="#metodo" className="text-sm font-bold uppercase tracking-widest hover:text-primary transition-colors">Método</a>
