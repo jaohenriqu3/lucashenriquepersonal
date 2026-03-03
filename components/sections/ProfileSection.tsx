@@ -35,10 +35,6 @@ export default function ProfileSection() {
                             </li>
                         ))}
                     </ul>
-
-                    <button className="text-primary font-black uppercase tracking-widest flex items-center gap-3 hover:gap-5 transition-all">
-                        Conheça minha história <span>→</span>
-                    </button>
                 </div>
             </div>
         </section>

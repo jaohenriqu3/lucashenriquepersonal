@@ -13,7 +13,7 @@ export default function StepsSection() {
                 <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-20">
                     <div>
                         <h2 className="text-4xl md:text-5xl font-black uppercase italic tracking-tighter leading-none mb-4">
-                            Metodologia de Trabalho
+                            Como funciona?
                         </h2>
                         <div className="w-20 h-1 bg-primary" />
                     </div>
