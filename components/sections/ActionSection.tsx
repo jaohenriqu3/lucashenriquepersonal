@@ -8,10 +8,15 @@ export default function ActionSection() {
                     Agende uma <span className="text-primary italic">Avaliação Física</span>
                 </h2>
 
+                <p className="text-white text-xl font-medium max-w-2xl mx-auto">
+                    Vem ser <span className="text-primary italic">#TeamLucasHenrique</span>
+                </p>
+
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6">
                     <button className="bg-primary hover:bg-primary-hover text-white font-black py-6 px-14 rounded-radius-custom transition-all uppercase tracking-widest text-xl shadow-2xl shadow-primary/30 hover:scale-[1.05] active:scale-95 group">
-                        Solicitar Consulta
-                        <span className="inline-block ml-3 group-hover:translate-x-2 transition-transform">→</span>
+                        <a href="https://wa.me/5583988116263" target="_blank" rel="noopener noreferrer">
+                            Entrar pro time!
+                        </a>
                     </button>
                 </div>
 
