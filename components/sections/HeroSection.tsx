@@ -19,7 +19,9 @@ export default function HeroSection() {
                     </div>
 
                     <button className="bg-primary hover:bg-primary-hover text-white font-black py-4 px-10 rounded-radius-custom transition-all uppercase tracking-widest text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-[0.98]">
-                        Agendar Consulta
+                        <a href="https://wa.me/5583988116263" target="_blank" rel="noopener noreferrer">
+                            Agendar Avaliação
+                        </a>
                     </button>
 
                     <div className="space-y-3 pt-4">
