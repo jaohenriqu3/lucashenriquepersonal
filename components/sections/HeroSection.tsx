@@ -35,7 +35,7 @@ export default function HeroSection() {
                     </div>
                 </div>
 
-                <div className="relative aspect-[3/4] bg-zinc-900 rounded-3xl overflow-hidden shadow-2xl shadow-primary/10">
+                <div className="relative aspect-[4/5] bg-zinc-900 rounded-3xl overflow-hidden shadow-2xl shadow-primary/10 mb-4">
                     <Image
                         src="/profile.jpg"
                         alt="Lucas Henrique - Personal Trainer"
